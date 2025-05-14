@@ -1,6 +1,58 @@
 # RF Online MOBA Game
 
-A real-time multiplayer online battle arena (MOBA) game inspired by RF Online, developed with BabylonJS. The game features strategic 3-lane battles, character classes based on RF Online factions, and high-paced hero combat mechanics in a sci-fi fantasy universe.
+A MOBA game inspired by RF Online using BabylonJS for rendering. This project features a three-tower lane system with heroes and mechanics from the RF Online universe.
+
+## Project Structure
+
+```
+src/
+├── assets/      # Game assets (models, textures, sounds)
+├── components/  # Game components (heroes, towers, etc.)
+├── scenes/      # Game scenes (main menu, gameplay, etc.)
+└── utils/       # Utility functions and helpers
+```
+
+## Prerequisites
+
+- Node.js (v14+)
+- npm or yarn
+
+## Setup
+
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+## Development
+
+To start the development server:
+
+```bash
+npm start
+```
+
+This will start a development server at http://localhost:9000
+
+## Building
+
+To build the game for production:
+
+```bash
+npm run build
+```
+
+The output will be in the `dist` directory.
+
+## Project Tasks
+
+See [TASKS.md](TASKS.md) for the complete list of project tasks and their status.
+
+## License
+
+MIT
 
 ## 🌌 Project Overview
 

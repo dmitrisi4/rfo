@@ -1,25 +1,25 @@
 # RF Online MOBA Game Development Plan
 
 ## 1. Project Setup and Infrastructure
-- [ ] 1.1. Setup project repository
-- [ ] 1.2. Initialize BabylonJS project structure
-- [ ] 1.3. Configure build system (Webpack/Vite)
+- [x] 1.1. Setup project repository
+- [x] 1.2. Initialize BabylonJS project structure
+- [x] 1.3. Configure build system (Webpack/Vite)
 - [ ] 1.4. Setup testing environment
 - [ ] 1.5. Create CI/CD pipeline
 
 ## 2. Game Design Document
 - [ ] 2.1. Define game mechanics and rules
-- [ ] 2.2. Outline map design with three-tower structure
-- [ ] 2.3. Document hero classes and abilities based on RF Online universe
+- [x] 2.2. Outline map design with three-tower structure
+- [x] 2.3. Document hero classes and abilities based on RF Online universe
 - [ ] 2.4. Design progression and reward systems
 - [ ] 2.5. Create art style guide referencing RF Online
 
 ## 3. Core Engine Development
-- [ ] 3.1. Setup BabylonJS scene and camera systems
-- [ ] 3.2. Implement game loop and state management
-- [ ] 3.3. Design entity component system
+- [x] 3.1. Setup BabylonJS scene and camera systems
+- [x] 3.2. Implement game loop and state management
+- [x] 3.3. Design entity component system
 - [ ] 3.4. Create physics system for collisions
-- [ ] 3.5. Implement basic input handling
+- [x] 3.5. Implement basic input handling
 
 ## 4. Networking and Multiplayer
 - [ ] 4.1. Design client-server architecture
@@ -29,24 +29,24 @@
 - [ ] 4.5. Setup server infrastructure
 
 ## 5. Map and Environment
-- [ ] 5.1. Design and model the MOBA map with three lanes
-- [ ] 5.2. Create the three-tower systems per lane
+- [x] 5.1. Design and model the MOBA map with three lanes
+- [x] 5.2. Create the three-tower systems per lane
 - [ ] 5.3. Implement jungle areas and neutral objectives
 - [ ] 5.4. Add environment assets and decorations
 - [ ] 5.5. Create spawning systems for minions
 
 ## 6. Character System
-- [ ] 6.1. Design character controller system
-- [ ] 6.2. Create base character class
-- [ ] 6.3. Implement RF Online race differentiation (Bellato, Cora, Accretia)
-- [ ] 6.4. Design character progression systems
+- [x] 6.1. Design character controller system
+- [x] 6.2. Create base character class
+- [x] 6.3. Implement RF Online race differentiation (Bellato, Cora, Accretia)
+- [x] 6.4. Design character progression systems
 - [ ] 6.5. Create character customization options
 
 ## 7. Hero Development
-- [ ] 7.1. Design and implement 5 initial heroes
-    - [ ] 7.1.1. Create models and animations
-    - [ ] 7.1.2. Implement hero abilities
-    - [ ] 7.1.3. Balance hero stats
+- [x] 7.1. Design and implement 5 initial heroes
+    - [x] 7.1.1. Create models and animations
+    - [x] 7.1.2. Implement hero abilities
+    - [x] 7.1.3. Balance hero stats
 - [ ] 7.2. Design and implement 5 additional heroes
     - [ ] 7.2.1. Create models and animations
     - [ ] 7.2.2. Implement hero abilities
@@ -54,11 +54,11 @@
 - [ ] 7.3. Create hero selection interface
 
 ## 8. Combat System
-- [ ] 8.1. Implement basic attack mechanics
-- [ ] 8.2. Create ability system framework
-- [ ] 8.3. Design and implement crowd control effects
-- [ ] 8.4. Add damage calculation systems
-- [ ] 8.5. Create cooldown and resource management
+- [x] 8.1. Implement basic attack mechanics
+- [x] 8.2. Create ability system framework
+- [x] 8.3. Design and implement crowd control effects
+- [x] 8.4. Add damage calculation systems
+- [x] 8.5. Create cooldown and resource management
 
 ## 9. AI Systems
 - [ ] 9.1. Implement minion AI

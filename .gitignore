@@ -1,0 +1,58 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# VS Code settings
+.vscode/
+
+# Logs
+logs
+*.log
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+
+# Coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Babel
+.cache/
+
+# Next.js
+.next/
+out/
+
+# Svelte / Vite / Astro etc.
+.svelte-kit/
+.vite/
+.astro/
+
+# Optional: test outputs
+test-output/

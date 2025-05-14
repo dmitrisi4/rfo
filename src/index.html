@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RF Online MOBA</title>
+    <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+        #cameraToggle {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            z-index: 10;
+        }
+        #cameraToggle:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        #modelController {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 300px;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            z-index: 10;
+        }
+        #modelController h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        .control-group {
+            margin-bottom: 10px;
+        }
+        .control-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .control-group input {
+            width: 100%;
+        }
+        .control-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .control-row input {
+            width: 75%;
+        }
+        .control-row .value {
+            width: 20%;
+            text-align: right;
+        }
+        .btn-group {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .btn-group button {
+            padding: 5px 10px;
+            background-color: rgba(50, 50, 100, 0.7);
+            color: white;
+            border: 1px solid white;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .btn-group button:hover {
+            background-color: rgba(70, 70, 120, 0.9);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="renderCanvas"></canvas>
+    <button id="cameraToggle">Отвязать камеру</button>
+    
+    <div id="modelController">
+        <h3>HQ Bellato Model Controller</h3>
+        
+        <div class="control-group">
+            <div class="control-row">
+                <label for="modelScaleX">Scale X:</label>
+                <span id="scaleXValue" class="value">1.0</span>
+            </div>
+            <input type="range" id="modelScaleX" min="0.01" max="2" step="0.01" value="1.0">
+        </div>
+        
+        <div class="control-group">
+            <div class="control-row">
+                <label for="modelScaleY">Scale Y:</label>
+                <span id="scaleYValue" class="value">1.0</span>
+            </div>
+            <input type="range" id="modelScaleY" min="0.01" max="2" step="0.01" value="1.0">
+        </div>
+        
+        <div class="control-group">
+            <div class="control-row">
+                <label for="modelScaleZ">Scale Z:</label>
+                <span id="scaleZValue" class="value">1.0</span>
+            </div>
+            <input type="range" id="modelScaleZ" min="0.01" max="2" step="0.01" value="1.0">
+        </div>
+        
+        <div class="control-group">
+            <div class="control-row">
+                <label for="modelPositionY">Position Y:</label>
+                <span id="positionYValue" class="value">4.0</span>
+            </div>
+            <input type="range" id="modelPositionY" min="-5" max="10" step="0.1" value="4.0">
+        </div>
+        
+        <div class="btn-group">
+            <button id="resetModel">Reset</button>
+            <button id="applyToAll">Apply to All Parts</button>
+            <button id="hideControls">Hide</button>
+        </div>
+    </div>
+</body>
+</html> 

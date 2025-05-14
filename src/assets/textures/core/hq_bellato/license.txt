@@ -1,0 +1,11 @@
+Model Information:
+* title:	HQ BELLATO
+* source:	https://sketchfab.com/3d-models/hq-bellato-63d7a2e1616148d9a99ce4ab98d38522
+* author:	Xernobi (https://sketchfab.com/Xernobi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "HQ BELLATO" (https://sketchfab.com/3d-models/hq-bellato-63d7a2e1616148d9a99ce4ab98d38522) by Xernobi (https://sketchfab.com/Xernobi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
